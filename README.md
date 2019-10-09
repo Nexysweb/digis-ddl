@@ -113,8 +113,8 @@ Examples are:
 
 This is an example of a simple model, that links countries and cities. 
 
-https://github.com/Nexysweb/DevelopmentConsultingFramework/blob/master/examples/simple-country-city.json
+https://github.com/Nexysweb/digis-ddl/tree/master/src/example/simple-country-city.json
 
 ## Example (advanced)
 
-https://github.com/Nexysweb/DevelopmentConsultingFramework/blob/master/examples/advanced.js
+https://github.com/Nexysweb/digis-ddl/tree/master/src/example/advanced.js
