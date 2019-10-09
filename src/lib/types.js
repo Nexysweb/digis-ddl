@@ -50,7 +50,7 @@ export const sqlToJvmType = i => {
     case 'varchar':
       return 'String';
     default:
-      throw `Couldn't translate "${i}" to JVM type.`
+      throw new Error(`Couldn't translate "${i}" to JVM type.`)
   }
 };
 
