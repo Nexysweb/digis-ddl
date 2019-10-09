@@ -1,5 +1,5 @@
 {
-  "name": "@digis/ddl",
+  "name": "@nexys/digis-ddl",
   "version": "1.0.1",
   "description": "digis ddl",
   "main": "dist/index.js",
