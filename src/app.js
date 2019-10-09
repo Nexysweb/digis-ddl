@@ -81,7 +81,7 @@ export default class App extends React.Component {
     const {content} = this.state;
     return (<div className="container">
       <h1>DDL Checker</h1>
-      <p>Details <a href="https://nexysweb.github.io/DevelopmentConsultingFramework/ddl-json">here</a></p>
+      <p>Details <a href="../">here</a></p>
 
       {this.renderError()}
       {this.renderSuccess()}
