@@ -3,7 +3,9 @@
 ![npm version](https://badge.fury.io/js/%40nexys%2Fdigis-ddl.svg)
 ![npm version](https://img.shields.io/npm/v/@nexys/digis-ddl.svg)
 
-There is an available UI to test different JSON structures described here below: https://nexysweb.github.io/digis-ddl/build
+View this page as a website: [https://nexysweb.github.io/digis-ddl](https://nexysweb.github.io/digis-ddl)
+
+There is an available UI to test different JSON structures described [here](/digis-ddl/build)
 
 We define an array of entities. All entities have attributes and are assigned primary keys in the form of ids or uuids.
 
