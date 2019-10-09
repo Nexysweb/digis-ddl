@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/digis-ddl/build/static/js/main.7a3a5272.chunk.js",
+    "main.js.map": "/digis-ddl/build/static/js/main.7a3a5272.chunk.js.map",
+    "runtime-main.js": "/digis-ddl/build/static/js/runtime-main.3551e90d.js",
+    "runtime-main.js.map": "/digis-ddl/build/static/js/runtime-main.3551e90d.js.map",
+    "static/js/2.4f8e5c7c.chunk.js": "/digis-ddl/build/static/js/2.4f8e5c7c.chunk.js",
+    "static/js/2.4f8e5c7c.chunk.js.map": "/digis-ddl/build/static/js/2.4f8e5c7c.chunk.js.map",
+    "index.html": "/digis-ddl/build/index.html",
+    "precache-manifest.58237c06f2844c263e0532c718391755.js": "/digis-ddl/build/precache-manifest.58237c06f2844c263e0532c718391755.js",
+    "service-worker.js": "/digis-ddl/build/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3551e90d.js",
+    "static/js/2.4f8e5c7c.chunk.js",
+    "static/js/main.7a3a5272.chunk.js"
+  ]
+}
