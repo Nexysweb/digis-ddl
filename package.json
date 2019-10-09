@@ -1,5 +1,5 @@
 {
-  "name": "digis-ddl",
+  "name": "@digis/ddl",
   "version": "1.0.0",
   "description": "digis ddl",
   "main": "dist/index.js",
@@ -9,8 +9,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "PUBLIC_URL=/digis-ddl/build react-scripts build",
+    "buildPackage": "rimraf dist/ && babel src/lib --out-dir dist/;rm dist/*.test.js",
     "test": "jest "
   },
+  "files": [
+    "dist/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nexysweb/digis-ddl.git"
@@ -40,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.6.3",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "babel-plugin-module-resolver": "^3.2.0"
   }
