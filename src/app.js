@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { validateModelDef } from './schema-validation';
+import { validateModelDef } from './lib/schema-validation';
 
 const isJson = j => {
   try {
