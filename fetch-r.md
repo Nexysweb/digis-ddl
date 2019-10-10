@@ -13,3 +13,19 @@ Our CRUD engine maps any relational database management system (RDBMS) to a type
 To download: https://hub.docker.com/r/nexyssytem/fetchr
 
 Fore more information about CRUD and the query language, [click here](./crud)
+
+## Endpoints
+
+### Data
+
+There's one endpoint to retrieve data: `/data`
+
+### Mutate
+
+One endpoint to mutate data: `/mutate`
+
+## Protocols
+
+### REST
+
+### WebSocket
