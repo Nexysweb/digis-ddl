@@ -1,12 +1,11 @@
-/*# permissions
+# permissions
 
 when a user logs in we create a permission map model (merging all the permissions he/she has with the data model leading to a unique data model)
 
-with every query, merge the data query and the permission model.
+when the user request a query, the query is merged with the permission model.
 
-there are three types of permissions
-- read
-- write
+types of permissions
+- projection: read/write
 - filter (only for attributes)
 
 write automatically grants read permission
@@ -32,7 +31,7 @@ const query = {
   'EntityName': {
     projection: queryProjection
   }
-}*/
+}
 
 const mergeEntityEntProjectionWithPermissionModel = (queryProjection, permissionModel) => {
   Object.keys(queryProjection).map(k => {
