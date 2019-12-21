@@ -4,9 +4,12 @@
 ![npm version](https://img.shields.io/npm/v/@nexys/digis-ddl.svg)
 [![TavisCI](https://travis-ci.com/Nexysweb/digis-ddl.svg?branch=master)](https://travis-ci.com/Nexysweb/digis-ddl)
 
-View this page as a website: [https://nexysweb.github.io/digis-ddl](https://nexysweb.github.io/digis-ddl)
 
-There is an available UI to test different JSON structures described [here](/digis-ddl/build)
+**See it in action** There is an available UI to test different JSON structures described [here](https://nexysweb.github.io/digis-ddl/)
+
+Check out
+* CRUD.md
+* FetchR.md
 
 We define an array of entities. All entities have attributes and are assigned primary keys in the form of ids or uuids.
 
