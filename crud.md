@@ -1,6 +1,4 @@
-# Create - Read - Update - Delete
-
-taken from https://digis.gitbook.io/lowcode
+# Create - Read - Update - Delete (CRUD)
 
 ## Understanding CRUD
 
