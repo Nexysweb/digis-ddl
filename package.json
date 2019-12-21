@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/Nexysweb/digis-ddl#readme",
   "dependencies": {
-    "joi": "^14.3.1"
+    "joi": "^14.3.1",
+    "react-router-dom": "^5.1.2"
   },
   "browserslist": {
     "production": [
@@ -41,11 +42,11 @@
     ]
   },
   "devDependencies": {
-    "react": "^16.10.1",
-    "react-dom": "^16.10.1",
-    "react-scripts": "^3.2.0",
     "@babel/cli": "^7.6.3",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "babel-plugin-module-resolver": "^3.2.0"
+    "babel-plugin-module-resolver": "^3.2.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "^3.2.0"
   }
 }
