@@ -2,6 +2,7 @@
 
 ![npm version](https://badge.fury.io/js/%40nexys%2Fdigis-ddl.svg)
 ![npm version](https://img.shields.io/npm/v/@nexys/digis-ddl.svg)
+[![TavisCI](https://travis-ci.com/Nexysweb/digis-ddl.svg?branch=master)](https://travis-ci.com/Nexysweb/digis-ddl)
 
 View this page as a website: [https://nexysweb.github.io/digis-ddl](https://nexysweb.github.io/digis-ddl)
 
