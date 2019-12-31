@@ -1,4 +1,3 @@
-import Joi from 'joi';
 import { isCrud, isSchema } from './query-validation';
 
 test('simple query test', () => {

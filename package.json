@@ -10,11 +10,15 @@
     "start": "react-scripts start",
     "build": "PUBLIC_URL=/digis-ddl react-scripts build; rm -rf docs; mv build docs; cp docs/index.html docs/404.html",
     "buildPackage": "rimraf dist/ && babel src/lib --out-dir dist/;rm dist/*.test.js",
-    "test": "jest "
+    "test": "jest ",
+    "lint": "eslint src/"
   },
   "files": [
     "dist/*"
   ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nexysweb/digis-ddl.git"

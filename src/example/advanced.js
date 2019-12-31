@@ -47,7 +47,7 @@ const employee = {
   ]
 }
 
-const timezeone = {
+const timezone = {
   name: "Timezone",
   uuid: true,
   params: [

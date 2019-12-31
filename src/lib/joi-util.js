@@ -18,8 +18,6 @@ export const getType = (typeName) => {
       console.warn(`The type "${typeName}" could not be converted to Joi, this may create some errors`);
       return null;
   }
-
-  return null;
 }
 
 export const appendOptional = (j, optional = false) => {
@@ -46,6 +44,8 @@ export const schemaFromDd = (dd, optouts = []) => {
     if (!optouts.includes(name)) {
       r[name] = appendOptional(getType(line.type), line.optional);
     }
+
+    return null;
   });
 
   return r;
