@@ -2,10 +2,12 @@
 
 ![npm version](https://badge.fury.io/js/%40nexys%2Fdigis-ddl.svg)
 ![npm version](https://img.shields.io/npm/v/@nexys/digis-ddl.svg)
+[![CircleCi](https://circleci.com/gh/Nexysweb/digis-ddl.svg?style=svg)](https://circleci.com/gh/Nexysweb/digis-ddl)
 [![TavisCI](https://travis-ci.com/Nexysweb/digis-ddl.svg?branch=master)](https://travis-ci.com/Nexysweb/digis-ddl)
 
+### See it in action
 
-**See it in action** There is an available UI to test different JSON structures described [here](https://nexysweb.github.io/digis-ddl/)
+There is an available UI to test different JSON structures described [here](https://nexysweb.github.io/digis-ddl/)
 
 Check out
 * CRUD.md
