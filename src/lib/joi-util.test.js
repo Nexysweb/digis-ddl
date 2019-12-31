@@ -16,7 +16,7 @@ test('schemaFromDd', () => {
     { arg: 'recognitionId', type: 'Int', optional: false},
     { arg: 'targetedId', type: 'Int', optional: false},
     { arg: 'historyEnd', type: 'LocalDateTime', optional: true},
-    { arg: 'logDateAdded', type: 'LocalDateTime', optional: true, "column": "date_added"}
+    { arg: 'logDateAdded', type: 'LocalDateTime', optional: true}
 
   ];
 
@@ -25,7 +25,7 @@ test('schemaFromDd', () => {
     name: Joi.string().required(),
     recognitionId: Joi.number().required(),
     targetedId: Joi.number().required(),
-    historyEnd: Joi.string()
+    historyEnd: Joi.date()
   };
 
   const optouts = ['logDateAdded'];

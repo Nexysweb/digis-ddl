@@ -11,6 +11,7 @@ export const getType = (typeName) => {
     case 'Double':
       return Joi.number();
     case 'LocalDateTime':
+      return Joi.date();
     case 'LocalDate':
       return Joi.string();
     default:
