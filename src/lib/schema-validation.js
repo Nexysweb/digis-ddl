@@ -1,4 +1,4 @@
-import Joi from 'joi';
+import Joi from '@hapi/joi';
 import { jvmTypes as Types } from './types';
 
 const modelParamSchema = Joi.object().keys({

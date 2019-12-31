@@ -1,4 +1,3 @@
-// to move to lib
 import Joi from 'joi';
 
 /**
