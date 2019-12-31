@@ -1,7 +1,7 @@
 # JSON Data Definition Language (DDL)
 
-![npm version](https://badge.fury.io/js/%40nexys%2Fdigis-ddl.svg)
-![npm version](https://img.shields.io/npm/v/@nexys/digis-ddl.svg)
+[![npm version](https://badge.fury.io/js/%40nexys%2Fdigis-ddl.svg)](https://www.npmjs.com/package/@nexys/digis-ddl)
+[![npm version](https://img.shields.io/npm/v/@nexys/digis-ddl.svg)](https://www.npmjs.com/package/@nexys/digis-ddl)
 [![CircleCi](https://circleci.com/gh/Nexysweb/digis-ddl.svg?style=svg)](https://circleci.com/gh/Nexysweb/digis-ddl)
 [![TavisCI](https://travis-ci.com/Nexysweb/digis-ddl.svg?branch=master)](https://travis-ci.com/Nexysweb/digis-ddl)
 
