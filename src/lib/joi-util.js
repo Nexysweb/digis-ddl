@@ -7,8 +7,14 @@ export const getType = (typeName) => {
     case 'Boolean':
       return Joi.boolean();
     case 'Int':
+    case 'BigDecimal':
+    case 'Double':
       return Joi.number();
+    case 'LocalDateTime':
+    case 'LocalDate':
+      return Joi.string();
     default:
+      console.warn(`The type "${typeName}" could not be converted to Joi, this may create some errors`);
       return null;
   }
 
@@ -23,14 +29,22 @@ export const appendOptional = (j, optional = false) => {
   return j;
 }
 
-export const schemaFromDd = dd => {
+/**
+ * [description]
+ * @param  {[type]} dd      [description]
+ * @param  {Array}  optouts list of arguments that need to be ignored (e.g. logdateadeed)
+ * @return {[type]}         [description]
+ */
+export const schemaFromDd = (dd, optouts = []) => {
   const r = {};
 
   Object.keys(dd).map(k => {
     const line = dd[k]
     const name = line.arg;
 
-    r[name] = appendOptional(getType(line.type), line.optional);
+    if (!optouts.includes(name)) {
+      r[name] = appendOptional(getType(line.type), line.optional);
+    }
   });
 
   return r;

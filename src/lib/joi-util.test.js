@@ -15,7 +15,9 @@ test('schemaFromDd', () => {
     { arg: 'name', type: 'String', optional: false},
     { arg: 'recognitionId', type: 'Int', optional: false},
     { arg: 'targetedId', type: 'Int', optional: false},
-    { arg: 'historyEnd', type: 'LocalDateTime', optional: true}
+    { arg: 'historyEnd', type: 'LocalDateTime', optional: true},
+    { arg: 'logDateAdded', type: 'LocalDateTime', optional: true, "column": "date_added"}
+
   ];
 
   const schema = {
@@ -23,9 +25,11 @@ test('schemaFromDd', () => {
     name: Joi.string().required(),
     recognitionId: Joi.number().required(),
     targetedId: Joi.number().required(),
-    historyEnd: null
+    historyEnd: Joi.string()
   };
 
-  expect(JoiUtil.schemaFromDd(dd)).toEqual(schema);
+  const optouts = ['logDateAdded'];
+
+  expect(JoiUtil.schemaFromDd(dd, optouts)).toEqual(schema);
 });
 
