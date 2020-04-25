@@ -1,3 +1,5 @@
+## Deprecated in favor of https://github.com/Nexysweb/ddl
+
 # JSON Data Definition Language (DDL)
 
 [![npm version](https://badge.fury.io/js/%40nexys%2Fdigis-ddl.svg)](https://www.npmjs.com/package/@nexys/digis-ddl)
